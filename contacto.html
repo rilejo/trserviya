@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Contactanos</title>
+    <link
+      rel="StyleSheet"
+      href="stiles/contacto.css"
+      type="text/css"
+      media="screen"
+    />
+  </head>
+
+  <body>
+    <nav id="barra">
+      <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="#">Contactanos</a></li>
+      </ul>
+      <div>
+        <ul id="datos">
+          <li><a href="tel:+573174292449">Tel: 345 798 265</a></li>
+          <li><a href="mailto:prueba@prueba.com,prueba2@prueba.com">ventas@trserviya.com</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header><h1>Transportadora Serviya</h1></header>
+
+    <main id="main1">
+      <article id="formulario">
+        <h3 id="h31">Deja tus datos y nos contactamos con tigo</h3>
+        <h3 id="h32">o llama al 3158697852</h3>
+        <form method="POST" action="php/formulario.php">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" /><br />
+
+          <label for="telefono">Tel</label>
+          <input type="text" name="telefono" id="telefono" /><br />
+          <div id="mensaje1">
+            <label for="mensaje">mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea
+            ><br />
+          </div>
+          <input id="enviar" type="submit" />
+        </form>
+      </article>
+      <article id="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63631.71613695437!2d-74.11492803857148!3d4.597200791544848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f996be20a7ceb%3A0x8f331b7b9c3a2fa1!2sServiYa!5e0!3m2!1ses-419!2sco!4v1575482904610!5m2!1ses-419!2sco"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen=""
+        ></iframe>
+      </article>
+    </main>
+
+    <footer>
+      <ul id="pie">
+        <li><a href="tel:+573174292449">Telefono: 359874113</a></li>
+        <li>
+          <a href="mailto:prueba@prueba.com,prueba2@prueba.com"
+            >Correo: awfe@trserviya.com
+          </a>
+        </li>
+        <li><a href="contacto.html">Direccion: CR 78 sur # 35 - 4</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
