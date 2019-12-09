@@ -1,0 +1,232 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+html{
+background-color: rgb(255, 255, 255);
+
+}
+
+body{
+width: 100%;
+height: 100%;
+}
+
+/*barra de navegacion*/
+
+#barra {
+position: fixed;
+width:100%;
+height: 40px;
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+}
+
+#menu li{
+list-style: none;
+float: left;
+height: 20px;
+padding: 10px 20px ;
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+ }
+
+#menu li:hover{
+    font-weight: bold;
+    background: rgba(254,254,254,1);
+    background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(49%, rgba(209,209,209,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(100%, rgba(226,226,226,1)));
+    background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=0 );    
+}
+
+/*datos contacto*/
+#datos li{
+list-style: none;
+float: right;
+height: 20px;
+padding: 10px 20px ;
+}
+#datos a{
+   text-decoration: none;
+   color: black;
+}
+
+/*ENCABESADO*/
+header {
+width:100%;
+height: 300px;
+background-image: url(https://cdn.pixabay.com/photo/2017/08/07/00/48/road-2598092_1280.jpg);
+background-size:100% 100%;
+}
+header h1{
+font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+text-transform: uppercase;
+display: block;
+color: blue;
+font-weight: bold;
+text-align: center;
+font-size: 45px;
+width: 40%;
+margin-left: 30%;
+letter-spacing: 1px;
+text-shadow: 2px 2px rgba(8, 4, 252, 0.486), -1px -1px rgb(25, 0, 134);
+padding-top: 5%;
+}
+
+
+/*PRIMER CONTENIDO*/
+
+#main1 {
+width: 100%;
+height: 200px;
+background-color: rgb(255, 255, 255);
+border: solid;
+border-color: black;
+border-left: none;
+border-right: none;
+
+}
+#main1 #logo {
+background-image: url(https://bitbucket.org/marketingdigitalaym/pagina-web/raw/835af29b59abddc683d6b343583c8eea851aa1b8/images/serviya-logo.png);
+background-size: 100% 100%;
+width: 20%;
+height: 200px;
+float: left;
+margin-left: 5%;  
+
+    }
+
+#main1 #articulo {
+    float: right;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+/*SEGUNDO CONTENIDO*/
+#main2 {
+width: 100%;
+height: 500px;
+margin: 0%;
+
+}
+
+#main2 #servicios {
+background-image:
+linear-gradient(rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.6)),
+url(https://bitbucket.org/marketingdigitalaym/pagina-web/raw/835af29b59abddc683d6b343583c8eea851aa1b8/images/bgm2.jpg);
+background-size: 100% 100%;
+
+
+
+width: 30%;
+height: 350px;
+float: left;
+margin-top: 75px;
+margin-left: 10%;
+
+border-radius: 5px 5px;
+}
+
+/*el mismo estilo para los dos titulos del 2° contenido*/
+
+#main2 #titulo{
+text-align: center;
+padding: 20px;
+margin-left: 20%;
+margin-right: 20%;
+border-radius: 10px;
+margin-top: 250px;
+font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+background: rgba(73,155,234,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: radial-gradient(ellipse at center, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+
+
+}
+
+
+#main2 #contactanos {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(https://bitbucket.org/marketingdigitalaym/pagina-web/raw/835af29b59abddc683d6b343583c8eea851aa1b8/images/iphone-410311_1280.jpg);
+background-size: 100% 100%;
+
+    width: 30%;
+    height: 350px;
+    float: right;
+    margin-top: 75px;
+    
+    margin-right: 10%;
+    border-radius: 5px 5px;
+    }
+
+/*PIE DE PAGINA*/
+
+footer {
+width: 100%;
+height: 200px;
+background-color: rgb(74, 88, 214);
+}
+
+footer #pie{
+float: left;
+width: 50%;
+}
+
+footer li{
+    padding: 2%;
+    margin-left: 20%;
+    list-style: none;
+        }
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer ul{
+margin-top: 2%;
+
+}
+
+
+footer #mapa {
+width: 190px;
+height: 190px;
+margin-top: 5px;
+float: right;
+margin-right: 20%;
+}
