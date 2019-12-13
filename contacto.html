@@ -7,6 +7,7 @@
       type="text/css"
       media="screen"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
@@ -27,14 +28,13 @@
 
     <main id="main1">
       <article id="formulario">
-        <h3 id="h31">Deja tus datos y nos contactamos con tigo</h3>
-        <h3 id="h32">o llama al 3158697852</h3>
-        <form method="POST" action="php/formulario.php">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre" /><br />
+        <h3 id="h31">Deja tus datos y te llamaremos</h3>
+          <form method="POST" action="php/formulario.php">
+          <label for="nombre"></label>
+          <input type="text" name="nombre" id="nombre" placeholder="nombre"/><br />
 
-          <label for="telefono">Tel</label>
-          <input type="text" name="telefono" id="telefono" /><br />
+          <label for="telefono"></label>
+          <input type="text" name="telefono" id="telefono" placeholder="telefono" /><br />
           <div id="mensaje1">
             <label for="mensaje">mensaje</label>
             <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea
